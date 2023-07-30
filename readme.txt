@@ -1,4 +1,4 @@
-# Event Management System using PHP/MySQL
+#Event Management System using PHP/MySQL
 
 ## About
 

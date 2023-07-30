@@ -1,38 +1,47 @@
-Pre-requisites:
-1. XAMPP Server : https://www.apachefriends.org/download.html
-2. TEXT EDITOR 
-3. Open the xampp server and start apache and mysql.
-4. Go to http://localhost/phpmyadmin and Create database named event_db. 
-5. Import the event_db.sql file from database.
-6. After successful import, place the project folder into C:\xampp\htdocs.
-7. Open the link : http://localhost/event-management-system
-8. For admin, open the link : http://localhost/event-management-system/admin/login.php 
-*LOGIN DETAILS* 
-Admin
-user: admin
-pass: admin123
+# Event Management System using PHP/MySQL
 
-Application: Event Management System using PHP/MySQL
+## About
 
-About
-------
-The Event Management System is a simple PHP/MySQL project that will help an event organizing company or business manage their client event details and market the client event also. This system also markets the venue list of the event origanizing company's selected possible venue for an event. This event management system allows posible event audiences to register online with the use of the company's website. The audience registration will only serve as a request at first until the system admin or management will reach back to the posible audience to talk or verify the audience registry confirmation for the event and settle the payments if necessary. The system allows also posible client to enquire the clients desired venue in which they posibly place their event. Talking about the management side or admin side of the system, the system has the dynamic list for the venues which the system users will populate or manage in order to display the venues through their website. The admin or staff will populate the list of events that the company handling along with the details and content or description to display in website. The event has an option for either the company's clients certain event wants to be published to the website for the posible audience registration or market the event or the company will store only the event details for their reference, For example the event organizing company's client's event is open for anyone as much as the event audience capacity, the company can help the client's event market online using their website and if the client's event is private or the client has already the list of their audience, the system user can store only the event details for their reference also to populate the event list for the company's report. The system also allows the system users to store the venues images and the event banner and other details that may also help the company or client their event or venues.
+The Event Management System is a PHP/MySQL project designed to assist event organizing companies in efficiently managing client event details and marketing their events and venue lists. This system allows potential event audiences to register online through the company's website. Audience registrations are treated as requests initially, and the system admin or management can follow up with the audience to verify their registration for the event and handle payments if necessary. The system also provides a platform for clients to inquire about desired venues for their events.
 
-Features
----------
-Management Side
--Login Page - The page where the system users will submit their credentials to access the event management system.
--Home Page - The page where the system user will be redirected by default after logging in.
--Venues Page - The page where the event organizing company's venues are listed and managed.
--Events Page - The page where the company's handled events are listed and managed.
--Venue Book List - The page where the clients book inquiry request online are listed and managed.
--Event Audience List - The page where the event audience or posible audience are listed that submited their registration request using the website.
--Audience Report - The page that lists the audience of a certain event. The list are organized by events and ready to be printed.
--Venue Report - The page that lists the events in a certain venue. The list are organized by the venue and month, and the list is also ready to be printed.
--Users Page - The page where the event management system users are listed and managed.
--System Settings - The page where system admin can manage the company details to be shown on the website.
+On the admin side, the system offers dynamic venue lists, which can be easily managed and displayed on the website. Admins or staff can populate the list of events the company handles, along with all the relevant details and descriptions for public display. The company can choose to publish certain events on the website for potential audience registration and market them online. Alternatively, the company can keep event details private and use the system to maintain an internal event list for reporting purposes.
 
-Visitor Side
--Home Page - The page where the visitor will be redirected by default when browseing the website. This page displays the upcoming events. 
--Venues Page - The page where the event organizing company's venues are shown.
--About Page - The page where the event organizing compay's about content is being shown.
+The Event Management System also supports the storage of venue images, event banners, and other essential details, further assisting clients in promoting their events and venues effectively.
+
+## Features
+
+### Management Side
+
+- **Login Page:** Users can securely access the event management system by providing their credentials.
+- **Home Page:** After logging in, users are redirected to the home page, providing an overview of their tasks.
+- **Venues Page:** Event organizing company's venues are listed and managed on this page.
+- **Events Page:** The system allows easy management of the events the company handles.
+- **Venue Book List:** This page displays and manages online booking inquiries for venues.
+- **Event Audience List:** Potential audience members who submitted registration requests using the website are listed and managed here.
+- **Audience Report:** Organized by events, this page lists all registered audience members and can be printed for reference.
+- **Venue Report:** Organized by venue and month, this page lists all events in a particular venue and can be printed for reference.
+- **Users Page:** System administrators can manage user accounts on this page.
+- **System Settings:** This page enables system administrators to manage the company details displayed on the website.
+
+### Visitor Side
+
+- **Home Page:** The default landing page for visitors, showcasing upcoming events.
+- **Venues Page:** Visitors can explore the event organizing company's available venues.
+- **About Page:** This page provides insights into the event organizing company and its mission.
+
+## Installation
+
+1. Download and install XAMPP Server from [here](https://www.apachefriends.org/download.html).
+2. Ensure you have a text editor installed for code modifications.
+3. Start Apache and MySQL on XAMPP Server.
+4. Go to http://localhost/phpmyadmin and create a database named "event_db".
+5. Import the event_db.sql file into the database.
+6. After a successful import, place the project folder into C:\xampp\htdocs.
+7. Open the link: http://localhost/event-management-system to access the website.
+8. For admin access, go to: http://localhost/event-management-system/admin/login.php
+
+   **LOGIN DETAILS**  
+   **Admin**  
+   User: admin  
+   Pass: admin123
+

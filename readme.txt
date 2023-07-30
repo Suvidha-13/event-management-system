@@ -1,5 +1,4 @@
-#Event Management System using PHP/MySQL
-
+# Event Management System using PHP/MYSQL
 ## About
 
 The Event Management System is a PHP/MySQL project designed to assist event organizing companies in efficiently managing client event details and marketing their events and venue lists. This system allows potential event audiences to register online through the company's website. Audience registrations are treated as requests initially, and the system admin or management can follow up with the audience to verify their registration for the event and handle payments if necessary. The system also provides a platform for clients to inquire about desired venues for their events.
